@@ -6,7 +6,7 @@ import ContactForm from "../components/ContactForm";
 
 const Home = () => {
   return (
-    <section>
+    <>
       <Container className="d-flex align-items-center justify-content-center">
         <Row className="hero d-flex align-items-center justify-content-center">
           <Col>
@@ -63,7 +63,7 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-    </section>
+    </>
   )
 }
 
